@@ -1,0 +1,25 @@
+﻿<Window x:Class="TestBookstore.CustomerAddDelete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestBookstore"
+        mc:Ignorable="d"
+        Title="CustomerAddDelete" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="photo-1485322551133-3a4c27a9d925.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="CustomerIDblock" HorizontalAlignment="Left" Height="33" Margin="75,43,0,0" TextWrapping="Wrap" Text="CustomerID" VerticalAlignment="Top" Width="119" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="CustomerNameblock" HorizontalAlignment="Left" Height="33" Margin="75,95,0,0" TextWrapping="Wrap" Text="Customer Name" VerticalAlignment="Top" Width="155" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="CustomerAddress" HorizontalAlignment="Left" Height="33" Margin="75,152,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="119" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="CustomerEmailblock" HorizontalAlignment="Left" Height="33" Margin="75,206,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="119" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="CustomerIDbox" HorizontalAlignment="Left" Height="33" Margin="252,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+        <TextBox x:Name="CustomerNamebox" HorizontalAlignment="Left" Height="33" Margin="252,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+        <TextBox x:Name="CustomerAddressbox" HorizontalAlignment="Left" Height="33" Margin="252,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+        <TextBox x:Name="CustomerEmailbox" HorizontalAlignment="Left" Height="33" Margin="252,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+        <Button x:Name="Addbtn" HorizontalAlignment="Left" Height="44" Margin="252,288,0,0" VerticalAlignment="Top" Width="144" Click="Addbtn_Click" Content="Add"/>
+        <Button x:Name="Updatebtn" Content="Update" HorizontalAlignment="Left" Height="44" Margin="437,288,0,0" VerticalAlignment="Top" Width="142" Click="Updatebtn_Click"/>
+
+    </Grid>
+</Window>

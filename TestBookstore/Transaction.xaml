@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestBookstore.Transaction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestBookstore"
+        mc:Ignorable="d"
+        Title="Transaction" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="photo-1485322551133-3a4c27a9d925.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="ISBNblock" HorizontalAlignment="Left" Height="38" Margin="70,102,0,0" TextWrapping="Wrap" Text="หมายเลข ISBN " VerticalAlignment="Top" Width="179" FontSize="24" FontWeight="Bold"/>
+        <TextBox x:Name="ISBNbox" HorizontalAlignment="Left" Height="38" Margin="281,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283"/>
+        <Button x:Name="Searchtbn" Content="ทำรายการซื้อ" HorizontalAlignment="Left" Height="49" Margin="281,197,0,0" VerticalAlignment="Top" Width="157" Click="Searchtbn_Click"/>
+        <Button x:Name="Listbtn" Content="Search Transaction" HorizontalAlignment="Left" Height="49" Margin="499,197,0,0" VerticalAlignment="Top" Width="139" Click="Listbtn_Click"/>
+
+    </Grid>
+</Window>
